@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'G_e12 Daydream';
+    src: url('G_e12Daydream-Regular.woff2') format('woff2'),
+        url('G_e12Daydream-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

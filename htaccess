@@ -1,0 +1,5 @@
+#AddHandler php8.0-script .html
+AddHandler php7.4-script .html
+#AddHandler php7.3-script .html
+#AddHandler php7.1-script .html
+#AddHandler php5.6-script .html

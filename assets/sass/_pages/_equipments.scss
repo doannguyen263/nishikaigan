@@ -1,0 +1,208 @@
+.equipments{
+	&__wrap{
+		background: #FFF8F2;
+		margin-top: -40px;
+		padding-top: 40px;
+	}
+	&-intro{
+		position: relative;
+		z-index: 1;
+		padding: 60px 0 80px;
+		&::before {
+			content: '';
+			position: absolute;
+			top: -50px;
+			left: 0;
+			width: 100%;
+			height: 107px;
+			background-image: url(../img/access-bottom-mask.png);
+			background-repeat: no-repeat;
+			background-size: 100% 100%;
+			z-index: -1;
+			pointer-events: none;
+		}
+		.el-item{
+			margin-bottom: 30px;
+			&__thumb{
+				box-shadow: 20px 20px 20px rgba(166, 158, 151, .7);
+				margin-bottom: 40px;
+			}
+			&__meta{
+				padding: 30px 30px 0;
+				text-align: center;
+			}
+			&__title{
+				font-family: 'TenMincho', serif;
+				font-size: 30px;
+				line-height: 46px;
+				color: #264B6D;
+				padding-bottom: 10px;
+				margin-bottom: 20px;
+				border-bottom: 1px solid #9A9468;
+			}
+		}
+	}
+
+	&-emergency{
+		position: relative;
+		padding: 140px 0 100px;
+		background-image: url(../img/equipments-bg.png);
+		background-repeat: no-repeat;
+		background-size:cover;
+		&:before {
+		    content: '';
+		    position: absolute;
+		    top: -40px;
+		    left: 0;
+		    width: 100%;
+		    height: 107px;
+		    background-image: url(../img/access-bottom-mask.png);
+		    background-repeat: no-repeat;
+		    background-size: 100% 100%;
+		    pointer-events: none;
+		    transform: rotate(180deg);
+		}
+		.el-item{
+			margin-bottom: 30px;
+			&__thumb{
+				box-shadow: 20px 20px 20px rgba(166, 158, 151, .7);
+				margin-bottom: 40px;
+			}
+			&__meta{
+				padding: 6px;
+				text-align: center;
+			}
+			&__title{
+				font-family: 'TenMincho', serif;
+				font-size: 28px;
+				line-height: 38px;
+				color: #264B6D;
+				padding-bottom: 10px;
+				margin-bottom: 20px;
+				border-bottom: 1px solid #9A9468;
+			}
+		}
+	}
+
+	&-foreign{
+		position: relative;
+		padding: 100px 0;
+		&:before {
+		    content: '';
+		    position: absolute;
+		    top: -40px;
+		    left: 0;
+		    width: 100%;
+		    height: 107px;
+		    background-image: url(../img/bg-mask-bottom.png);
+		    background-repeat: no-repeat;
+		    background-size: 100% 100%;
+		    pointer-events: none;
+		}
+
+		.el-box{
+			&:not(:last-child){
+				margin-bottom: 100px;
+			}
+			&__header{
+				margin-bottom: 60px;
+			}
+			&__title{
+				font-family: 'TenMincho', serif;
+				font-size: 36px;
+				color: #675D57;
+			}
+		}
+		.el-item{
+
+			&__thumb{
+				box-shadow: 20px 20px 20px rgba(166, 158, 151, .7);
+				margin-bottom: 40px;
+				transform: rotate3d(1, 1, 1, 5deg);
+			}
+			&__meta{
+				padding: 30px 30px 0;
+			}
+			&__title{
+				font-family: 'TenMincho', serif;
+				font-size: 30px;
+				line-height: 46px;
+				color: #264B6D;
+				padding-bottom: 10px;
+				margin-bottom: 20px;
+				border-bottom: 1px solid #9A9468;
+			}
+			&:nth-child(even){
+				.el-item{
+					&__thumb{
+						transform: rotate3d(1, 1, 1, -5deg);
+					}
+				}
+			}
+		}
+	}
+
+	@media ( max-width: 1399px ) {
+		&-intro{
+			padding: 60px 0 40px;
+			.el-item__meta {
+			    padding: 30px 20px 0;
+			}
+		}
+	}
+	@media ( max-width: 1199px ) {}
+	@media ( max-width: 991px ) {
+		&-intro{
+			.el-item__thumb {
+			    margin-bottom: 20px;
+			}
+		}
+		&-foreign{
+			.el-item__thumb {
+			    max-width: 500px;
+			    margin: auto;
+			}
+		}
+	}
+	@media ( max-width: 767px ) {
+		&-intro{
+    		padding: 60px 0px;
+    		.el-item__meta {
+			    padding: 30px 0px 0;
+			}
+			.el-item__title {
+			    font-size: 24px;
+			    line-height: 38px;
+			}
+		}
+		&-emergency{
+    		padding: 140px 0 80px;
+    		&:before {
+			    top: -70px;
+			}
+			.el-item__title {
+			    font-size: 24px;
+			    line-height: 38px;
+			}
+		}
+		&-foreign {
+		    padding: 80px 0 100px;
+			.el-item__thumb {
+			    max-width: 90%;
+			}
+			.el-item__meta {
+			    padding: 30px 0px 0;
+			}
+			.el-item__title {
+			    font-size: 24px;
+			    line-height: 38px;
+			}
+		}
+	}
+	@media ( max-width: 575px ) {
+		&-intro .el-item__title {
+		    font-size: 20px;
+		    line-height: 32px;
+		}
+	}
+}

@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'TenMincho-Regular-Alphabetic';
+    src: url('TenMincho-Regular-Alphabetic.woff2') format('woff2'),
+        url('TenMincho-Regular-Alphabetic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

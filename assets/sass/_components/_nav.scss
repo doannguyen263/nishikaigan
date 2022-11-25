@@ -1,0 +1,30 @@
+.nav {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    &-link {
+	    display: block;
+	    padding: 0.5rem 1rem;
+	    color: #0d6efd;
+	    text-decoration: none;
+	    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+	    &:focus, &:hover {
+		    color: #0a58ca;
+		}
+	}
+
+}
+.fade {
+    transition: opacity .15s linear;
+}
+.fade:not(.show) {
+    opacity: 0;
+}
+.tab-content>.tab-pane {
+    display: none;
+}
+.tab-content>.active {
+    display: block;
+}
