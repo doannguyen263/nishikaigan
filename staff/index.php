@@ -200,7 +200,6 @@ $page_curent = 'staff';
 				      			<div class="-text">テキストテキストテキストテキストテキストテキストテキストテキス</div>
 				      		</li>
 				      	</ul>
-
 				    	</div>
 
 
@@ -244,19 +243,38 @@ $page_curent = 'staff';
 
 												<div class="el-box mb-5">
 										      	<h3 class="el-box__title text-center"><span>経歴</span></h3>
-										      	<ul class="ul-list -st2">
-										      		<li>テキストテキストテキストテキストテキストテキスト</li>
-										      		<li>テキストテキストテキストテキストテキストテキスト</li>
-										      		<li>テキストテキストテキストテキストテキストテキスト</li>
-										      		<li>テキストテキストテキストテキストテキストテキスト</li>
-										      		<li>テキストテキストテキストテキストテキストテキスト</li>
-										      		<li>テキストテキストテキストテキストテキストテキスト</li>
+										      	<ul class="ul-list ps-0">
+									      			<li>
+										      			<div class="-date">0000/00/00</div>
+										      			<div class="-text">テキストテキストテキストテキストテキストテキストテキストテキス</div>
+										      		</li>
+										      		<li>
+										      			<div class="-date">0000/00/00</div>
+										      			<div class="-text">テキストテキストテキストテキストテキストテキストテキストテキス</div>
+										      		</li>
+										      		<li>
+										      			<div class="-date">0000/00/00</div>
+										      			<div class="-text">テキストテキストテキストテキストテキストテキストテキストテキス</div>
+										      		</li>
+										      		<li>
+										      			<div class="-date">0000/00/00</div>
+										      			<div class="-text">テキストテキストテキストテキストテキストテキストテキストテキス</div>
+										      		</li>
+										      		<li>
+										      			<div class="-date">0000/00/00</div>
+										      			<div class="-text">テキストテキストテキストテキストテキストテキストテキストテキス</div>
+										      		</li>
+										      		<li>
+										      			<div class="-date">0000/00/00</div>
+										      			<div class="-text">テキストテキストテキストテキストテキストテキストテキストテキス</div>
+										      		</li>
 										      	</ul>
+
 										      </div>
 
-												<div class="el-box">
-										      	<h3 class="el-box__title text-center"><span>所属</span></h3>
-										      	<ul class="ul-list -st2">
+												<div class="el-box -large wow fadeInUp">
+									      	<h3 class="el-box__title text-center"><span>書籍</span></h3>
+									      	<ul class="ul-list -st2">
 										      		<li>テキストテキストテキストテキストテキストテキスト</li>
 										      		<li>テキストテキストテキストテキストテキストテキスト</li>
 										      		<li>テキストテキストテキストテキストテキストテキスト</li>
@@ -264,7 +282,8 @@ $page_curent = 'staff';
 										      		<li>テキストテキストテキストテキストテキストテキスト</li>
 										      		<li>テキストテキストテキストテキストテキストテキスト</li>
 										      	</ul>
-										      </div>
+									    	</div>
+
 
 	                  </div>
 	                </div>
@@ -303,7 +322,7 @@ $page_curent = 'staff';
 				      		</li>
 				      	</ul>
 				    </div>
-
+				    <hr class="my-5">
 					<div class="row g-4 g-md-5 g-xl-120">
 
 						<div class="col-md-6 wow fadeInLeft">
